@@ -28,7 +28,7 @@ const Footer = () => {
       <Box>
         
         <Typography variant="body2" sx={{ mb: 2 }}>
-        © {new Date().getFullYear()} DLS. All Rights Reserved.
+        © {new Date().getFullYear()} . All Rights Reserved.
       </Typography>
       </Box>
     </Box>
