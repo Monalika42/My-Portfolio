@@ -17,7 +17,7 @@ export const projects = [
     description: 'Developed an AI-powered chatbot using the Gemini API, React.js, Python, and PostgreSQL, supporting multi-turn conversations and persistent chat history.',
     image: 'https://via.placeholder.com/300x300.png?text=Gemini+AI+Chatbot',
     link: '#',
-    github: 'https://github.com/Monalika42/Chatbot-using-Gemini-AI',
+    github: 'https://github.com/Monalika42/Chatbot-Using-Gemini-AI',
     technologies: ['Python', 'React', 'PostgreSQL'],
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
     description: 'Developed a secure file upload application using Spring Boot and MySQL. Implemented REST APIs for upload, download, update, and delete operations with validation and metadata storage.',
     image: './fileupload.png',
     link: '#',
-    github: 'https://github.com/Monalika42/File-Upload',
+    github: 'https://github.com/Monalika42/Image-Upload',
     technologies: ['Spring Boot', 'MySQL'],
   },
   {
