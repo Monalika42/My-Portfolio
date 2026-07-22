@@ -1,0 +1,179 @@
+.projects-container {
+  background-color: #1a1a1a;
+  /* color: rgb(160, 87, 87); */
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.projects-grid {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  border-color: #00cc7a;
+  width: 350px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 255, 153, 0.2);
+}
+
+.project-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.project-title {
+  font-size: 1.1rem;
+}
+
+.project-description {
+  color: rgba(158, 158, 158, 0.7);
+  margin-bottom: 1rem;
+  flex: 1;
+  font-size: 0.85rem;
+}
+
+.technologies-container {
+  margin-bottom: 1rem;
+}
+
+.tech-chip {
+  margin-right: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  background-color: #00ff99 !important;
+  color: #1a1a1a !important;
+  font-size: 0.75rem !important;
+}
+
+.live-demo-button {
+  color: #00ff99 !important;
+  font-size: 0.8rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.live-demo-button:hover {
+  color: #00cc7a !important;
+}
+
+.github-button {
+  color: rgb(34, 180, 224) !important;
+  font-size: 0.8rem !important;
+}
+
+.github-button:hover {
+  color: #24b2c2 !important;
+}
+
+.github-icon {
+  font-size: 1rem !important;
+}
+
+
+
+/* 
+.projects-container {
+  padding: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-grid {
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.project-description {
+  color: #666;
+  flex-grow: 1;
+}
+
+.technologies-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-chip {
+  background-color: #e0e7ff !important;
+  color: #2563eb !important;
+}
+
+.buttons-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.live-demo-button {
+  background-color: #2563eb !important;
+  color: white !important;
+  text-transform: none !important;
+}
+
+.live-demo-button:hover {
+  background-color: #1d4ed8 !important;
+}
+
+.github-button {
+  background-color: #333 !important;
+  color: white !important;
+  text-transform: none !important;
+}
+
+.github-button:hover {
+  background-color: #24292e !important;
+}
+
+.github-icon {
+  font-size: 1rem !important;
+} */

@@ -1,0 +1,88 @@
+/* .contact-container {
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.form-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-field input,
+.text-field textarea {
+  color: white;
+}
+
+.text-field .MuiFormLabel-root {
+  color: rgba(158, 158, 158, 0.7);
+}
+
+.text-field .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(158, 158, 158, 0.7);
+}
+
+.text-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #00ff99;
+}
+
+.submit-button {
+  margin-top: 2rem !important;
+  background-color: #00ff99 !important;
+  color: #1a1a1a !important;
+}
+
+.submit-button:hover {
+  background-color: #00cc7a !important;
+} */
+
+
+
+.contact-container {
+  background-color: inherit; /* From MUI theme */
+  color: inherit;            /* From MUI theme */
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.form-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Allow MUI theme to control colors */
+.text-field input,
+.text-field textarea {
+  color: inherit;
+}
+
+.text-field .MuiFormLabel-root {
+  color: rgba(158, 158, 158, 0.7); /* Optional: consider theming this */
+}
+
+.text-field .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(158, 158, 158, 0.7); /* Optional: can be themed */
+}
+
+.text-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #00ff99;
+}
+
+.submit-button {
+  margin-top: 2rem !important;
+  background-color: #00ff99 !important;
+  color: #1a1a1a !important; 
+}
+
+.submit-button:hover {
+  background-color: #00cc7a !important;
+}

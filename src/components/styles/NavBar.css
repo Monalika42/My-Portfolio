@@ -1,0 +1,74 @@
+/* Navbar background */
+.navbar {
+  background-color: #0f1b6a !important;
+}
+
+/* Title styling */
+.navbar-title {
+  flex-grow: 1;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hide menu icon by default */
+.menu-icon {
+  display: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Show menu icon ONLY on mobile */
+@media (max-width: 599px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Hide desktop menu on mobile */
+.desktop-menu {
+  display: none;
+}
+
+/* Show desktop menu only on large screens */
+@media (min-width: 600px) {
+  .desktop-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Hide drawer in desktop */
+  .mobile-drawer {
+    display: none !important;
+  }
+}
+
+/* Navigation button style */
+.nav-button {
+  color: white !important;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.nav-button:hover {
+  color: #00ff99 !important;
+}
+
+/* "Hire Me" button */
+.hire-button {
+  background-color: #00ff99 !important;
+  color: #1a1a1a !important;
+  margin-left: 1rem !important;
+  border-radius: 25px !important;
+}
+
+.hire-button:hover {
+  background-color: #00cc7a !important;
+}
+
+/* Drawer style for mobile */
+.mobile-drawer .MuiDrawer-paper {
+  background-color: #f6f0f0 !important;
+  color: white !important;
+}
+
