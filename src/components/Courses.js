@@ -14,19 +14,19 @@ const coursesData = [
     id: 1,
     title: "Spring Boot with GraphQL",
     description: "Learn to build scalable APIs using Spring Boot integrated with GraphQL.",
-    certificateImage: "/SBGraphQL.png",
+    certificateImage: "",
   },
   {
     id: 2,
     title: "Spring Boot with Microservices",
     description: "Master microservices architecture using Spring Boot for distributed systems.",
-    certificateImage: "/certificates/springboot-microservices-certificate.png",
+    certificateImage: "",
   },
   {
     id: 3,
     title: "Spring Boot",
     description: "Master microservices architecture using Spring Boot for distributed systems.",
-    certificateImage: "/certificates/springboot-microservices-certificate.png",
+    certificateImage: "",
   },
 ];
 
@@ -56,7 +56,7 @@ const hackerrankcertify = [
     id: 1,
     title: "Nodejs  (Basic)",
     description: "Certified in basic problem solving by HackerRank.",
-    certificateImage: "/nodeb.png",
+    certificateImage: "",
   },
   {
     id: 2,
@@ -68,13 +68,13 @@ const hackerrankcertify = [
     id: 3,
     title: "Python (Basic)",
     description: "Certified in basic Python programming by HackerRank.",
-    certificateImage: "/pythonb.png",
+    certificateImage: "",
   },
   {
     id: 4,
     title: "SQL (Basic)",
     description: "Certified in basic SQL by HackerRank.",
-    certificateImage: "/sqlb.png",
+    certificateImage: "",
   },
 ];
 
