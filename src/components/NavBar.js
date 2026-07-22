@@ -62,7 +62,7 @@ const Navbar = () => {
       <AppBar position="static" className="navbar">
         <Toolbar>
           <Typography variant="h6" className="navbar-title">
-            RD
+          
           </Typography>
 
           {/* ✅ Show only when screen is mobile */}
