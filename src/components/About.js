@@ -51,24 +51,23 @@ const About = () => {
             title: 'Education',
             content: 
             `🎓B.Tech – CSE 
-            Annamacharya University,2026 CGPA:8.90 
+            Annamacharya University,2026 CGPA:8.70 
 
             🏫Intermediate (10+2) 
-            Narayana Junior College, 2022 with 96%
+            Narayana Junior College, 2022 with 78%
 
             👨‍🏫SSC (10th) 
-            G.S.E.M.S, Nandyal, 2020 with 78%`
+            G.S.E.M.S, Nandyal, 2020 with 96%`
           },
           {
             title: 'Personal Information',
             content: 
-            ` 🧑‍💼 Full Name: Dudekula RajaHussaini  
-              🎂 Date of Birth: 16/10/2003  
-              🚻 Gender: Male 
+            ` 🧑‍💼 Full Name: Monalika Neelam  
+              🎂 Date of Birth: 14/09/2004  
+              🚻 Gender: Female 
               🌐 Nationality: Indian  
-              🗣️ Languages: English, Hindi, Telugu. 
-              📞 Contact Number: +91 6305488245  
-              📧 Email ID: rajadudekula35@email.com`,
+              🗣️ Languages: English, Hindi, Telugu.   
+              📧 Email ID: neelammonalika6964@email.com`,
           },
         ].map((item, index) => (
           
